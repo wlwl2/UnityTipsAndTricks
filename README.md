@@ -16,7 +16,7 @@ These little known tips and tricks that are helpful when using Unity (2018/2019)
 
 7. You can roll out your own health/energy bars quite easily without using UI sliders.
 
-8. There is a UI option to reset transforms.
+8. There is a Native Unity Editor UI option to reset transforms.
 
 9. Animations can be renamed by double-clicking (I don't remember where). If you rename animations wrongly, it is a pain to rename all the links. Don't forget that Unity does not do linking/syncing for you yet with regards to animation names/animator. Check your prefab/GameObject names and their animation names carefully.
 
