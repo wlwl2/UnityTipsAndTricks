@@ -1,4 +1,4 @@
-# UnityTipsAndTricks
+# Unity Tips And Tricks
 
 - alt + shift + right-click then move your mouse around in the editor scene view allows you to zoom in and out faster in the scene view.
 
