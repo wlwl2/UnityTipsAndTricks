@@ -6,9 +6,9 @@ These little known tips and tricks that are helpful when using Unity (2018/2019)
 
 2. Although you can drag folders and place them into the Favorites section in the Project window, the folders you add there persist between projects and it is only useful to do this whole process if you are working on only one project. Do not click on the Favorites folders you have added when using other projects.
 
-3. In Unity 2018/2019, if your scene view UI prefab does not sync (this means that the position of the UI elements are in the wrong place) with the prefab view, make sure that the latest prefab is saved somewhere, then delete the prefab in the scene, and then replace it with the saved prefab.
+3. If your scene view UI prefab does not sync (this means that the position of the UI elements are in the wrong place) with the prefab view, make sure that the latest prefab is saved somewhere, then delete the prefab in the scene, and then replace it with the saved prefab.
 
-4. Under the UI system in Unity 2018/2019, try to avoid using layout groups. Use anchors instead. You can use layout groups first then delete them later, if you want to take advantage of layout groups.
+4. Avoid using layout groups and use anchors instead. You can use layout groups first then delete them later. Using layout groups causes problems with saving in the editor.
 
 5. Use multiple canvases for your UIs instead of only one canvas.
 
