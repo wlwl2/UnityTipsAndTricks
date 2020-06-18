@@ -20,4 +20,12 @@ These little known tips and tricks that are helpful when using Unity (2018/2019)
 
 9. Animations can be renamed by double-clicking (I don't remember where). If you rename animations wrongly, it is a pain to rename all the links. Don't forget that Unity does not do linking/syncing for you yet with regards to animation names/animator. Check your prefab/GameObject names and their animation names carefully.
 
-When I remember about any others, I'll add them here.
+10. To have your RayCasts affect trigger colliders, go to: Edit > Project Settings... > Physics2D and check "Queries Hit Triggers".
+
+11. Physics2D.IgnoreCollision
+
+12. Pseudo-3D raycast calls: Physics2D.GetRayIntersectionAll
+
+13. Physics2D.OverlapPointAll
+
+When I remember or find any others, I'll add them here.
