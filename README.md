@@ -28,4 +28,6 @@ These little known tips and tricks that are helpful when using Unity (2018/2019)
 
 13. Physics2D.OverlapPointAll
 
+14. https://docs.microsoft.com/en-us/windows/mixed-reality/performance-recommendations-for-unity
+
 When I remember or find any others, I'll add them here.
