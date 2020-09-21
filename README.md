@@ -32,7 +32,8 @@ These little known tips and tricks that are helpful when using Unity (2018/2019)
 
 15. It is better to use `nameof` for `InvokeRepeating()` calls. E.g. `InvokeRepeating(nameof(YourRepeatingMethod), 0f, 0.1f);` than a string.
 
-16. For coroutines, string-started coroutines are probably a better choice, since you can stop all instances of the coroutine.
+16. For coroutines check out @merkaba48's answer.
 https://forum.unity.com/threads/how-to-cancel-and-restart-a-coroutine.435493/
+You can also use `nameof` with coroutines?
 
 When I remember or find any others, I'll add them here.
