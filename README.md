@@ -31,6 +31,8 @@ These little known tips and tricks that are helpful when using Unity (2018/2019)
 14. https://docs.microsoft.com/en-us/windows/mixed-reality/performance-recommendations-for-unity
 
 15. It is better to use `nameof` for `InvokeRepeating()` calls. E.g. `InvokeRepeating(nameof(YourRepeatingMethod), 0f, 0.1f);` than a string.
-Similarly, for coroutines, it is better to call the coroutine in `StartCoroutine()` rather than using a method name string. E.g. `StartCoroutine(SetButtons());`
+
+16. For coroutines, string-started coroutines are probably a better choice, since you can stop all instances of the coroutine.
+https://forum.unity.com/threads/how-to-cancel-and-restart-a-coroutine.435493/
 
 When I remember or find any others, I'll add them here.
